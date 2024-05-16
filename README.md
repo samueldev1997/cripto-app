@@ -1,30 +1,22 @@
-# React + TypeScript + Vite
+# Cripto App 
+Crypto App é um aplicativo que permite aos usuários buscar e visualizar dados de criptomoedas em tempo real utilizando a API da CoinCap.
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## 🔥 Funcionalidades Principais
 
-Currently, two official plugins are available:
+- Pesquisar por criptomoedas específicas.
+- Exibir uma lista de criptomoedas com informações detalhadas como valor de mercado, preço, volume e mudança nas últimas 24 horas.
+- Carregar mais criptomoedas à medida que o usuário rola a página.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## ⚙️ Tecnologias Utilizadas ⚙️
+- React
+- TypeScript
+- React Router
+- CoinCap API
+- CSS Modules
+- React Icons
 
-## Expanding the ESLint configuration
+  
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
-
-- Configure the top-level `parserOptions` property like this:
-
-```js
-export default {
-  // other rules...
-  parserOptions: {
-    ecmaVersion: 'latest',
-    sourceType: 'module',
-    project: ['./tsconfig.json', './tsconfig.node.json'],
-    tsconfigRootDir: __dirname,
-  },
-}
-```
-
-- Replace `plugin:@typescript-eslint/recommended` to `plugin:@typescript-eslint/recommended-type-checked` or `plugin:@typescript-eslint/strict-type-checked`
-- Optionally add `plugin:@typescript-eslint/stylistic-type-checked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and add `plugin:react/recommended` & `plugin:react/jsx-runtime` to the `extends` list
+<div align="center">
+    <img src="https://github.com/samueldev1997/cripto-app/assets/139514932/1193895a-1b26-4b03-b703-f088165acb91" width='500px' />
+</div>
